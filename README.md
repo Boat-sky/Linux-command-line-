@@ -406,5 +406,5 @@ screen -ls
 screen -S ชื่อscreen -X quit
 ```
 ```
-screen -X -S ชื่อscreen ๆีระ
+screen -X -S ชื่อscreen quit
 ```

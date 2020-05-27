@@ -35,6 +35,10 @@ conda info --envs
 ```
 rm -rf anaconda3
 ```
+### ดูรายชื่อแพ็กเกจที่ติดตั้งบนเครื่องของเรา
+```
+apt list --installed
+```
 
 ### วิธีดูเวอร์ชั่น driver การ์จอ
 ไปที่ driver manager

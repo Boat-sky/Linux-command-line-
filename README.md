@@ -421,3 +421,7 @@ screen -S ชื่อscreen -X quit
 ```
 screen -X -S ชื่อscreen quit
 ```
+### ตรวจพื้นที่เก็บในโฟลเดอร์
+```
+du -h -s ชื่อโฟลเดอร์
+```

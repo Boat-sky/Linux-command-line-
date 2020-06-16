@@ -74,6 +74,7 @@ boat(ตัวที่ 2) คือ ชื่อกรุ๊ป (group)
 ### แก้ไข permission ของไฟล์
 ```
 chmod เลขpermission3หลัก ชื่อไฟล์
+sudo chmod เลขpermission3หลัก ชื่อไฟล์
 ```
 ### เพิ่ม permission ของไฟล์ ตามสถานะที่กำหนด
 ```

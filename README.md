@@ -37,6 +37,7 @@ sudo root
 1. virtualenv (ชื่อ env)   
 2. sourcce (ชื่อ env)/bin/activate   
 3. deactivate   
+4. sudo rm -rf (ชื่อ env)
 
 ### คำสั่งเรียกใช้งาน android studio
 ```

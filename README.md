@@ -22,16 +22,21 @@ init 0
 ### วิธี bash ไฟล์
 bash (ชื่อ sh ไฟล์)
 
-### เข้าถึง roor   
+### เข้าถึง root   
 ```
 sudo root
 ```
 เมื่อเข้าใน root แล้วไม่ต้องใช้คำสั่ง sudo เวลาสั่งการ   
 
-### วิธีสร้าง env
+### วิธีสร้าง env (ของ conda)
 1. conda -n (env name) python=(เวอร์ชั่นที่ต้องการ)
 2. conda activate (env name)
 3. conda deactivate
+
+### วิธีสร้าง env (ของ virtualenv)   
+1. virtualenv (ชื่อ env)   
+2. sourcce (ชื่อ env)/bin/activate   
+3. deactivate   
 
 ### คำสั่งเรียกใช้งาน android studio
 ```

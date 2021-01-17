@@ -500,4 +500,5 @@ sudo adduser foo sudo
 ```
 sudo adduser foo
 ```
-### 
+### Set Up SSH Keys
+[link](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04#step-3-%E2%80%94-authenticating-to-your-ubuntu-server-using-ssh-keys)

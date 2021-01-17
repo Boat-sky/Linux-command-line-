@@ -492,6 +492,12 @@ scp เครื่องที่มีข้อมูล ที่อยู่
 ```
 scp KCN_WORKING/LSTcorpus/MT/All_Language_Corpus.xlsx student2020_nuttaset@10.99.5.197:fairseq
 ```
+### อัพโหลดข้อมูลขึ้นไปบน EC2 ของ AWS (ให้สั่งในเครื่อง server ของเรา)
+ตามตัวอย่างเป็นกรณีที่ไฟล์ .pem (ได้มาตอนสร้าง EC2) มีชื่อว่า amazon.pem ซึ่งเก็บไว้ในโฟลเดอร์ Desktop  และต้องการโหลข้อมูลที่ชื่อว่า MS115.txt ซึ่งอยู่หน้า Desktop ส่งไปยังเครื่อง server ที่มีชื่อว่า ubuntu@ec2-54-166-128-20.compute-1.amazonaws.com ในโฟลเดอร์ data   
+สามารถดูเพิ่มเติมได้ที่ [link นี้](https://angus.readthedocs.io/en/2014/amazon/transfer-files-between-instance.html)
+```
+scp -i ~/Desktop/amazon.pem ~/Desktop/MS115.txt  ubuntu@ec2-54-166-128-20.compute-1.amazonaws.com:~/data/
+```
 ### เพิ่ม user ในเครื่อง พร้อมให้สิทธิ์ sudo
 ```
 sudo adduser foo sudo

@@ -508,3 +508,12 @@ sudo adduser foo
 ```
 ### Set Up SSH Keys
 [link](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04#step-3-%E2%80%94-authenticating-to-your-ubuntu-server-using-ssh-keys)
+### ปลดล็อก zip ไฟล์
+```
+sudo unzip ชื่อzipไฟล์
+```
+### นำไฟล์ หรือโฟลเดอร์รวมเป็น zip ไฟล์
+```
+zip -r ชื่อzipไฟล์(ที่จะสร้าง) ไฟล์1 ไฟล์2 โฟลเดอรื
+```
+ดูเพิ่มเติมได้ที่ [ลิงค์นี้](https://itsfoss.com/linux-zip-folder/#:~:text=Zip%20a%20folder%20in%20Ubuntu%20Linux%20Using%20GUI&text=Go%20to%20the%20folder%20where,a%20single%20file%20as%20well.)

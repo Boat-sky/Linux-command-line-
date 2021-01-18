@@ -468,6 +468,12 @@ screen -S ชื่อscreen -X quit
 ```
 screen -X -S ชื่อscreen quit
 ```
+### ออกจากหน้า screen ที่อยู่
+```
+exit
+```
+หรือกด `Ctrl+a+X `   
+ดูเพิ่มเติมได้ที่ [ที่นี่](https://linuxize.com/post/how-to-use-linux-screen/)
 ### ตรวจพื้นที่เก็บในโฟลเดอร์
 ```
 du -h -s ชื่อโฟลเดอร์

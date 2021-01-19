@@ -523,3 +523,49 @@ sudo unzip ชื่อzipไฟล์
 zip -r ชื่อzipไฟล์(ที่จะสร้าง) ไฟล์1 ไฟล์2 โฟลเดอรื
 ```
 ดูเพิ่มเติมได้ที่ [ลิงค์นี้](https://itsfoss.com/linux-zip-folder/#:~:text=Zip%20a%20folder%20in%20Ubuntu%20Linux%20Using%20GUI&text=Go%20to%20the%20folder%20where,a%20single%20file%20as%20well.)
+### เปิดไฟล์ .gz
+```
+gunzip file.gz
+```
+หรือ
+```
+gzip -d file.gz
+```
+### เปิดไฟล์ .tar.gz
+```
+tar -zxvf file.tar.gz
+```
+### เปิดไฟล์ .tar
+```
+tar -xvf file_name.tar
+```
+### สร้าง Python Virtual Environment 
+ติดตั้งโมดูล `virtualenv` ถ้าหากใช้ python3 สามารถติดตั้งโดยใช้คำสั่ง
+```
+pip3 install virtualenv
+```
+เช็คที่อยู่ของไฟล์ python3 binary ในเวอร์ชั่นที่ต้องการ (สมมมติใช้ python3.8)   
+โดยทั่วไปไฟล์นั้นจะอยู่ใร bath
+```
+/usr/bin/python3.8
+```
+ถ้าหากหาไฟล์ pyhton3 binary ในเวอร์ชั่นที่ต้องการเจอแล้ว สามารถสร้าง env ด้วยคำสั่ง
+```
+virtualenv -p /usr/bin/python3.8 ชื่อenvที่ต้องการตั้ง
+```
+ถ้าต้องการเรียกใช้ก็รันคำสั่ง
+```
+source ชื่อenv/bin/activate
+```
+สามารถเช็คว่าตอนนี้ไฟล์ python3 binary ที่เราใช้อยู่มาจากไหน ด้วยคำสั่ง
+```
+which python
+```
+ถ้าต้องการออกจาก env นั้น ก็ใช้คำสั่ง
+```
+deactivate
+```
+ถ้าต้องการลบ env ก็ใช้คำสั่ง
+```
+rm -rf ชื่อenv
+```

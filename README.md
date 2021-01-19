@@ -606,4 +606,14 @@ jobs
 ```
 pytohn train_model.py &
 ```
-
+### สั่งรันให้ทำงานอยู่แม้ปิด terminal
+รันแบบ background process ก่อน โดยการเติม `&` ต่อด้านหลังคำสั่ง หลังจากนั้นรันคำสั่ง `disown  -h  %1`   
+เช่นรันไฟล์ train_model.py ใช้คำสั่ง
+```
+pytohn train_model.py &
+disown  -h  %1
+```
+หรือสามารถเติม `nohup` ไว้ด้านหน้าคำสั่งตั้งแต่แรกเลยก็ได้ จะได้
+```
+nohup python train_model.py &
+```

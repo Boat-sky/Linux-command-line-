@@ -596,3 +596,14 @@ mpstat -P ALL -u 2 4
 ```
 bg
 ```
+สามารถเช้คคำสั่งที่รันแบบ background process ได้ด้วยคำสั่ง
+```
+jobs
+```
+จะมีเครื่องหมาย + ตามหลังหมายเลขของ process ที่เกิดขึ้นใหม่ และ - แทน process ที่สั่งไว้ก่อนหน้า
+### รันคำสั่งแบบ background process
+เติมเครื่องหมาย `&` ต่อท้ายตำสั่งที่จะรัน เช่น ต้องการรันไฟล์ train_model.py แบบ background process
+```
+pytohn train_model.py &
+```
+

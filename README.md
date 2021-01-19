@@ -617,3 +617,4 @@ disown  -h  %1
 ```
 nohup python train_model.py &
 ```
+สามารถดูเพิ่มเติมได้ที่ [ลิงค์](https://www.tecmint.com/run-linux-command-process-in-background-detach-process/#:~:text=How%20to%20Start%20a%20Linux,background%20jobs%20by%20typing%20jobs%20.)

@@ -618,3 +618,28 @@ disown  -h  %1
 nohup python train_model.py &
 ```
 สามารถดูเพิ่มเติมได้ที่ [ลิงค์](https://www.tecmint.com/run-linux-command-process-in-background-detach-process/#:~:text=How%20to%20Start%20a%20Linux,background%20jobs%20by%20typing%20jobs%20.)
+### การใช้คำสั่ง snap
+ติดตั้ง package โดย package เหล่านี้จะอยู่ใน โฟลเดอร์ snap
+```
+sudo snap install ชื่อpackage
+```
+ดูรายการ package ทั้งหมดที่สามารถติดตั้งได้
+```
+sudo snap find
+```
+ดูรายชื่อ package ที่ติดตั้งโดยใช้ snap ในเครื่องเรา
+```
+sudo snap list
+```
+ ดู list ของ logged actions
+ ```
+ sudo snap changes
+ ```
+ อัปเกรด package เป็นเวอร์ชั่นล่าสุด
+ ```
+ sudo snap refresh ชื่อpackage
+ ```
+ ถอนการติดตั้ง package
+ ```
+ sudo snap remove ชื่อpackage
+ ```

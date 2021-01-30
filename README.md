@@ -88,9 +88,9 @@ ls -l
 เช่น  `-rw-rw-r-- 1 boat boat     112 Jan 11 21:34  Command`   
 ```
 - (ถ้าเป็นโฟเดอร์จะเป็น d) แต่ถ้าเป็นขีด จะเป็นไฟล์   
-rw-(rwx) u = owner/user   
-rw-(rwx) g = gruop
-r--(rwx) o = other
+rw-(rwx) u = owner/user  (3 ตัวแรก) 
+rw-(rwx) g = gruop       (3 ตัวชุดที่สอง)
+r--(rwx) o = other       (3 ตัวชุดสุดท้าย)
 ```
 โดย
 ```

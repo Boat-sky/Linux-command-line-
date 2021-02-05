@@ -588,6 +588,10 @@ tar -zxvf file.tar.gz
 ```
 tar -xvf file_name.tar
 ```
+### เปิดไฟล์ .rpm
+```
+sudo alien file_name.rpm
+```
 ### สร้าง Python Virtual Environment 
 ติดตั้งโมดูล `virtualenv` ถ้าหากใช้ python3 สามารถติดตั้งโดยใช้คำสั่ง
 ```

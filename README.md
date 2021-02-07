@@ -35,9 +35,21 @@ sudo root
 
 ### วิธีสร้าง env (ของ virtualenv)   
 1. virtualenv (ชื่อ env)   
+วิธีนี้จะสร้าง env แล้วเก็บ folder env ตัวนี้ไว้ใน path ที่เรารันคำสั่งนี้   
+นอกจากนี้ยังสามารถใช้คำสั่ง
+```
+python3 -m venv ~/ชื่อvenv
+```
+เพื่อสร้าง env ที่เป็น python3 เก็บไว้ในหน้า home   
 2. sourcce (ชื่อ env)/bin/activate   
+หรือ   
+```
+source ~/ชื่อenv/bin/activate
+```
+สำหรับ env ที่เก็บไว้ที่หน้า home
 3. deactivate   
-4. sudo rm -rf (ชื่อ env)
+4. sudo rm -rf (ชื่อ env)   
+ดูเพิ่มเติมได้ที่ [ลิงค์นี้](https://www.techcoil.com/blog/how-to-use-python-3-virtual-environments-to-run-python-3-applications-on-your-raspberry-pi/)
 
 ### คำสั่งเรียกใช้งาน android studio
 ```

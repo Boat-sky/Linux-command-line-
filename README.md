@@ -707,3 +707,12 @@ sudo snap list
  ```
  sudo snap remove ชื่อpackage
  ```
+### โหลดข่้อมูลจาก google drive ลงเครื่อง (ช่วยให้เร็วขึ้น)
+```
+./gdown.pl 'gdrive file url' ['desired file name'] 
+```
+เช่น
+```
+./gdown.pl https://drive.google.com/file/d/0B1L_hFrWJfRhLUJZdXdSdTdfSWs/edit axolotl.mp4 
+```
+ดูเพิ่มเติมได้ที่ [link](https://github.com/circulosmeos/gdown.pl/tree/with-resume)

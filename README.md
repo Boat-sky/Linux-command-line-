@@ -716,3 +716,7 @@ sudo snap list
 ./gdown.pl https://drive.google.com/file/d/0B1L_hFrWJfRhLUJZdXdSdTdfSWs/edit axolotl.mp4 
 ```
 ดูเพิ่มเติมได้ที่ [link](https://github.com/circulosmeos/gdown.pl/tree/with-resume)
+### ตั้งรหัสผ่าน jupyter notebook
+```
+jupyter notebook password
+```

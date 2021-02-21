@@ -565,6 +565,22 @@ scp Hello.txt nkuapani@tara.nstda.or.th:~
 ```
 scp -i ~/Desktop/amazon.pem ~/Desktop/MS115.txt  ubuntu@ec2-54-166-128-20.compute-1.amazonaws.com:~/data/
 ```
+### อัพข้อมูลส่งไปที่ raspberry pi
+```
+scp have_mask/Go.txt pi@เลขipของบอร์ด:/home/pi/Desktop/face-mask-decotr/have_mask
+```
+วิธีเช็คเลข ip สามารถทำได้ด้วยคำสั่ง
+```
+ifconfig
+```
+ถ้าต่อ wifi ip จะอยู่ในส่วน
+```
+wlp5s0
+```
+แต่ถ้าต่อสาย LAN จะอยู่ในส่วน
+```
+eth0 
+```
 ### เพิ่ม user ในเครื่อง พร้อมให้สิทธิ์ sudo
 ```
 sudo adduser foo sudo

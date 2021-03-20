@@ -753,4 +753,4 @@ sudo nano /etc/hosts
 ```
 sudo reboot
 ```
-ดูเพิ่มเติมได้ที่ [link](cyberciti.biz/faq/ubuntu-change-hostname-command/)
+ดูเพิ่มเติมได้ที่ [link](https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/)

@@ -736,3 +736,21 @@ sudo snap list
 ```
 jupyter notebook password
 ```
+### เช็ค host name ของเครื่องเรา (ชื่อเครื่อง)
+```
+hostname
+```
+### เปลี่ยนชื่อเครื่องของเรา
+เปลี่ยนชื่อ host name
+```
+sudo nano /etc/hostname
+```
+เปลี่ยนชื่อใน hosts
+```
+sudo nano /etc/hosts
+```
+รีบูทเครื่อง
+```
+sudo reboot
+```
+ดูเพิ่มเติมได้ที่ [link](cyberciti.biz/faq/ubuntu-change-hostname-command/)

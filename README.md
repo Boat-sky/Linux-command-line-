@@ -723,6 +723,12 @@ sudo snap list
  ```
  sudo snap remove ชื่อpackage
  ```
+### list device ทั้งหมดที่ต่อกับ usb ของเรา
+ควรใช้คำสั่งนี้ก่อนเสียบ และหลังเสียบ usb เพื่อดูว่า  device อะไรเพิ่มขึ้น จะได้รู้ว่า devide นั้นชื่อว่าอะไร
+```
+listusb
+```
+หากต้องการ reset การเชื่อมต่อ usb ดูได้ที่ [ลิงค์นี้](https://askubuntu.com/questions/645/how-do-you-reset-a-usb-device-from-the-command-line)
 ### โหลดข่้อมูลจาก google drive ลงเครื่อง (ช่วยให้เร็วขึ้น)
 ```
 ./gdown.pl 'gdrive file url' ['desired file name'] 

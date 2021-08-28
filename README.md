@@ -624,6 +624,14 @@ tar -xvf file_name.tar
 ```
 sudo alien file_name.rpm
 ```
+### เปิดไฟล์ .rar
+```
+sudo apt-get install unrar
+```
+ย้ายไฟล์ rar นั้นมาในโฟลเดอร์ใหม่ก่อน ไม่งั้นไฟล์ใน .rar จะไปปนกับไฟล์เดิม
+```
+unrar e tecmint.rar
+```
 ### สร้าง Python Virtual Environment 
 ติดตั้งโมดูล `virtualenv` ถ้าหากใช้ python3 สามารถติดตั้งโดยใช้คำสั่ง
 ```

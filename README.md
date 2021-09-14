@@ -772,3 +772,13 @@ sudo nano /etc/hosts
 sudo reboot
 ```
 ดูเพิ่มเติมได้ที่ [link](https://www.cyberciti.biz/faq/ubuntu-change-hostname-command/)
+### แปลง png เป็น jpg
+ติดตั้งโปรแกรม
+```
+sudo apt-get install imagemagick
+```
+แปลงรูปภาพที่ต้องการ
+```
+convert ubuntuhandbook.png ubuntuhandbook.jpg
+```
+ดูเพิ่มเติมที่ [ลิงค์นี้](https://ubuntuhandbook.org/index.php/2013/07/how-to-convert-png-to-jpg-on-ubuntu-via-command/)

@@ -172,6 +172,21 @@ ls-1
 ```
 ll หรือ ls -al
 ```
+### แสดงรายละเอียดสิ่งที่อยู่ใน dir นั้น
+```
+file ชื่อสิ่งที่เราต้องการดูรายระเอียด
+```
+เช่น
+```
+(base) boat@boat-pc:~/Downloads$ file cute.jpg
+cute.jpg: JPEG image data, progressive, precision 8, 960x540, components 3
+
+(base) boat@boat-pc:~/Downloads$ file CV.docx
+CV.docx: Microsoft Word 2007+
+
+(base) boat@boat-pc:~/Downloads$ file scaner
+scaner: directory
+```
 ### ลบ hidden file (แต่ไม่สามารถลบ . หรือ .. ออกได้)
 ```
 rm .ชื่อไฟล์

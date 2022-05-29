@@ -289,6 +289,38 @@ cd ../..
 ```
 cd / ตัวอักษรด้านหน้า + กดแท็บ2ครั้ง
 ```
+### ย้ายไป dir ใหม่ โดยบันทึก dir ที่เคยอยู่ก่อนหน้านี้
+```
+pushd dirใหม่ที่ต้องการไป
+```
+เราสามารถกลับไป dir ล่าสุดก่อนหน้านี้ได้โดย ได้โดย
+```
+pushd
+```
+### ย้ายไป dir เดิมที่เคยเข้ามาก่อนหน้านี้
+```
+popd
+```
+เมื่อใช้คำสั่งนี้ จะเครื่องจะพิมพ์ประวัติการเข้า dir อื่นก่อนหน้านี้ที่เรายังไม่ได้กลับไปอีกด้วย   
+โดย pushd และ popd จะใช้งานร่วมกัน เช่น
+```
+(base) boat@boat-pc:~/Downloads$ pushd /etc
+/etc ~/Downloads
+
+(base) boat@boat-pc:/etc$ pushd /bin
+/bin /etc ~/Downloads
+
+(base) boat@boat-pc:/bin$ pushd
+/etc /bin ~/Downloads
+
+(base) boat@boat-pc:/etc$ popd
+/bin ~/Downloads
+
+(base) boat@boat-pc:/bin$ popd
+~/Downloads
+
+(base) boat@boat-pc:~/Downloads$ 
+```
 ### ย้ายไฟล์เดิม โดยให้ไฟล์ใหม่ออกมาจากที่อยู่ของไฟล์เดิม 1 ขั้น
 ```
 mv ไฟล์เดิม ../ไฟล์ใหม่

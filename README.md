@@ -92,7 +92,7 @@ apt list --installed
 pwd
 ```
 ระบบไฟล์ใน linux
-![root_img](https://imgur.com/a/QCUtGpS)
+![root_img](https://i.imgur.com/Iv9ypzW.png)
 ### ดูที่อยู่ไฟล์ที่อยู่บนหน้าจอ
 ลากไฟล์นั้นมา แล้ววางบน command line จะได้ที่อยู่ไฟล์นั้นที่มี '' ครอบอยู่
 ### แสดงรายชื่อไฟล์ในในโฟล์เดอร์นั้นพร้อมรายละเอียด

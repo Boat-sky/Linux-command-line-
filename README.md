@@ -541,6 +541,10 @@ service ชื่อบริการ status
 ```
 service ชื่อบริการ stop
 ```
+### ดู uid ของเรา
+```
+id
+```
 ### ดูว่าเครื่องดเรามี network caed อะไรบ้าง id อะไร
 ```
 ip addre หรือ ip address หรือ ip a

@@ -726,6 +726,16 @@ sudo adduser foo
 ```
 ### Set Up SSH Keys
 [link](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04#step-3-%E2%80%94-authenticating-to-your-ubuntu-server-using-ssh-keys)
+### remote เครื่องอื่นผ่าน ssh
+เช่นเค้าเครื่อง server_name=boat, server_ip=172.16.108.92
+```
+ssh boat@172.16.108.92
+```
+กำหนด local host เพื่อเปิด jupyter notebook ของเครื่อง server ผ่านเครื่องเราได้ (กำหนดเป็น 8888)
+```
+ssh -L 8888:localhost:8888 boat@172.16.108.92
+```
+ดูเพิ่มเติมที่ [ลิงค์](https://www.digitalocean.com/community/tutorials/how-to-install-run-connect-to-jupyter-notebook-on-remote-server#step-3-connecting-to-the-jupyter-notebook-application-with-ssh-tunneling)
 ### ปลดล็อก zip ไฟล์
 ```
 sudo unzip ชื่อzipไฟล์

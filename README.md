@@ -63,7 +63,7 @@ cd Downloads/android-studio/bin
 
 ### เช็คการเข้า internet (ในที่นี้เข้าไปใน sanook)   
 ```
-ping sanook
+ping sanook.com
 ```
 
 ### ดูโค๊ตทั้งหมดที่พิพ์ก่อนหน้า
@@ -840,16 +840,17 @@ jobs
 pytohn train_model.py &
 ```
 ### สั่งรันให้ทำงานอยู่แม้ปิด terminal
-รันแบบ background process ก่อน โดยการเติม `&` ต่อด้านหลังคำสั่ง หลังจากนั้นรันคำสั่ง `disown  -h  %1`   
+รันแบบ background process ก่อน โดยการเติม `&` ต่อด้านหลังคำสั่ง หลังจากนั้นรันคำสั่ง `disown`   
 เช่นรันไฟล์ train_model.py ใช้คำสั่ง
 ```
 pytohn train_model.py &
-disown  -h  %1
+disown
 ```
 หรือสามารถเติม `nohup` ไว้ด้านหน้าคำสั่งตั้งแต่แรกเลยก็ได้ จะได้
 ```
 nohup python train_model.py &
 ```
+หยุด
 สามารถดูเพิ่มเติมได้ที่ [ลิงค์](https://www.tecmint.com/run-linux-command-process-in-background-detach-process/#:~:text=How%20to%20Start%20a%20Linux,background%20jobs%20by%20typing%20jobs%20.)
 ### การใช้คำสั่ง snap
 ติดตั้ง package โดย package เหล่านี้จะอยู่ใน โฟลเดอร์ snap

@@ -930,6 +930,16 @@ lsusb
 ```
 jupyter notebook password
 ```
+### กำหนดให้ jupyter notebook ไม่บันทึก checkpoint
+jupyter notebook จะสร้างโฟลเดอร์ `.ipynb_checkpoints` เพื่อเก็บ checkpoint version กำหนดให้ jupyter notebook ไม่บันทึก checkpoint ได้โดยกำหนดใน config file    
+สร้าง configuration file ชื่อว่า `jupyter_notebook_config.py` โดยทั่วไปจะอยู่ใน `~/.jupyter/`
+```
+jupyter notebook --generate-config
+```
+เปิด `jupyter_notebook_config.py` แล้วเพิ่มบรรทัดนี้เข้าไป
+```
+c.ContentsManager.checkpoints = None
+```
 ### เช็ค host name ของเครื่องเรา (ชื่อเครื่อง)
 ```
 hostname

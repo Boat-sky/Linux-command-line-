@@ -645,6 +645,10 @@ nano ชื่อไฟล์
 ```
 nvidia-smi 
 ```
+แบบ real-time ใช้
+```
+watch -n 1 nvidia-smi
+```
 หรือ
 ```
 nvtop

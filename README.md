@@ -661,6 +661,10 @@ nvtop
 ```
 gpustat
 ```
+release gpu memory กรณีที่ถูกใช้เพราะรัน python (สั่ง kill python script ทั้งหมด)
+```
+pkill -9 python
+```
 ---
 ### ดูการทำงานของ ram ในเครื่อง
 ```

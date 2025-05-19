@@ -657,6 +657,10 @@ watch -n 1 nvidia-smi
 ```
 nvtop
 ```
+แสดงชื่อ username และปริมาณการใช้ gpu
+```
+gpustat
+```
 ---
 ### ดูการทำงานของ ram ในเครื่อง
 ```

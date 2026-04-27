@@ -661,6 +661,10 @@ nvtop
 ```
 gpustat
 ```
+ดูแบบ real-time
+```
+gpustat -i 1
+```
 release gpu memory กรณีที่ถูกใช้เพราะรัน python (สั่ง kill python script ทั้งหมด)
 ```
 pkill -9 python

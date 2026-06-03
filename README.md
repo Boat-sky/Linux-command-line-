@@ -998,3 +998,7 @@ sudo apt-get install imagemagick
 convert ubuntuhandbook.png ubuntuhandbook.jpg
 ```
 ดูเพิ่มเติมที่ [ลิงค์นี้](https://ubuntuhandbook.org/index.php/2013/07/how-to-convert-png-to-jpg-on-ubuntu-via-command/)
+### เช็คจำนวน Token
+```
+npx ccusage monthly
+```
